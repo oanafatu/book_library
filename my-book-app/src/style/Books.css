@@ -1,0 +1,52 @@
+.book-img {
+    width: 98px !important; 
+    margin-left: 70px;
+}
+
+.book-card {
+    margin-bottom: 10px;
+}
+
+.book-title{
+    text-align: center;
+}
+
+.book-author{
+    text-align: center;
+    color: gray;
+}
+
+.book-footer{
+    color: purple;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-add{
+    margin-top: 20px;
+    margin-left:40px;
+    display: list-item !important;
+    
+}
+
+.card-deck{
+    margin-top:20px;
+    justify-content: center;
+    margin: 10 auto;
+}
+
+.spinner{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+.ishidden{
+    display: none;
+}
+
+

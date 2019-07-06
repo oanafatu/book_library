@@ -1,0 +1,37 @@
+  
+.search-title{
+    color: purple;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+.search-subtitle{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.input-group {
+    width: 80% !important;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 600px;
+    margin:auto;
+} 
+
+@media screen and (max-width: 600px) {
+
+    .search-title{
+        font-size: 180%;
+        padding: 20px;
+    }
+    .input-group {
+        width: 100% !important;
+        margin: auto;
+        max-width: 300px;
+    }
+
+}
+

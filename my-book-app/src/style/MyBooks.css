@@ -1,0 +1,52 @@
+.no-result{
+    width: 80% !important;
+    padding-top:  10px;
+    max-width: 1100px;;
+    padding: 50px;
+}
+
+.my-books{
+    width: 80% !important;
+    padding-top: 10px;
+    max-width: 1100px;
+    padding: 50px;
+}
+
+.my-book{
+    display: grid !important;
+    grid-template-columns: 0.2fr 1fr 0.05fr;
+}
+
+.goodreads-logo{
+    padding-right: 3px;
+}
+
+.mybook-title{
+    font-size: 150%;
+    padding-top: 10px;
+}
+
+.mybook-author{
+    font-size: 140%;
+}
+
+.jumbotron {
+    padding: 2rem 1rem !important;
+    text-align: left;
+    font-size: 100%;
+}
+
+.list-group{
+    text-align: left;
+}
+
+.btn-remove{
+    background: none;
+    border: none;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        font-size: 140%;
+    }
+}

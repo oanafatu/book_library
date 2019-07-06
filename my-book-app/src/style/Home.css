@@ -1,0 +1,57 @@
+.image {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.div-image{
+    display: flex;
+    width: 100vw;
+    align-items: center; 
+}
+
+.home{
+    text-align: center;
+    padding: 50px;
+    font-size: 100%;
+    max-width: 1000px;
+}
+
+.home-title{
+    color: purple;
+    padding-bottom: 50px;
+    
+}
+
+.home-text {
+    color: gray;
+    text-align: center;
+    font-size:  120%;
+    padding-bottom: 40px;
+}
+
+.btn-go-to{
+    margin-top: 20px;
+    margin-left:40px;
+    display: list-item !important;
+    align-self: center;
+}
+
+.jumbotron-home{
+    text-align: center !important;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .image {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .div-text{
+        font-size: 80%;
+        padding: 20px;
+    }
+    
+
+}
