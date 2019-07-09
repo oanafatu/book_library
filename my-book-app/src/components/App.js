@@ -4,7 +4,8 @@ import MyBooks  from './MyBooks';
 import Search from './Search';
 import Home from './Home';
 import '../style/App.css';
-import {BrowserRouter, Link, Route} from 'react-router-dom';
+import '../style/index.css';
+import {HashRouter, Link, Route} from 'react-router-dom';
 import {Nav, Navbar} from 'react-bootstrap';
 import logo from '../style/book_library.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Navbar collapseOnSelect expand="md" bg="light"  >
           <Navbar.Brand><img src={logo} className="App-logo" alt="logo" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -33,7 +34,7 @@ function App() {
         <Route path='/my-books' component={MyBooks}></Route>
         <Route path='/about' component={About}></Route>
       </div> 
-    </BrowserRouter>    
+    </HashRouter>    
   );  
 }
 

@@ -3,6 +3,8 @@ import Book from './Book';
 import {CardDeck, Spinner, Alert} from 'react-bootstrap';
 
 
+const url = process.env.NODE_ENV === 'development' ? 'http://localhost:8000':'https://booklibrary-server.herokuapp.com';
+
 function Books(props){ 
 
   const [data,setData] = useState(null);
@@ -17,7 +19,7 @@ function Books(props){
     
     if(localInput !== query) {
       setData(null);
-      fetch(`http://localhost:8000/api/booksearch/${query}`)
+      fetch(`${url}/api/booksearch/${query}`)
        .then((res)=>res.json())
        .then((res)=>{
           setData(res); 
