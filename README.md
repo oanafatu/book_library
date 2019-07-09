@@ -6,6 +6,7 @@ This is my project for the hack day at SALT: the result of an entire day of indi
 
 I choosed to do do a project with React to search for books based on Goodreads API. I used Express on the backend and bootstrap to help with the css. 
 
+You can check it here: https://oanafatu.github.io/book_library/ 
 
 
 ### Instructions:
