@@ -3,12 +3,12 @@ import About from './About';
 import MyBooks  from './MyBooks';
 import Search from './Search';
 import Home from './Home';
-import '../style/App.css';
-import '../style/index.css';
+//import '../style/App.css';
+//import '../style/index.css';
 import {HashRouter, Link, Route} from 'react-router-dom';
 import {Nav, Navbar} from 'react-bootstrap';
 import logo from '../style/book_library.png'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import './../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {

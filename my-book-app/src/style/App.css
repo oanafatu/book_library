@@ -1,10 +1,9 @@
-@import 'Home.css';
 @import 'reset.css';
+@import 'Home.css';
 @import 'Books.css';
 @import 'Search.css';
 @import 'About.css';
 @import 'MyBooks.css';
-@import 'index.css';
 
 
 .App-logo{
